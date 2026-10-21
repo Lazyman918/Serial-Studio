@@ -1,0 +1,68 @@
+name: Build Windows GPLv3 (Pure Open Source)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build-windows-gpl.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows-gpl:
+    name: 'Build Windows GPLv3 (x86_64)'
+    runs-on: windows-latest
+
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+
+      - name: 'Set up MSVC Development Environment'
+        uses: TheMrMilchmann/setup-msvc-dev@v3
+        with:
+          arch: x64
+
+      - name: 'Install Qt 6'
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '6.8.2'
+          host: 'windows'
+          target: 'desktop'
+          arch: 'win64_msvc2022_64'
+          modules: 'qtgraphs qtserialport qtbluetooth qtsvg'
+
+      - name: 'Configure CMake (GPLv3 pure open-source)'
+        run: |
+          cmake -B build -G Ninja `
+            -DCMAKE_BUILD_TYPE=Release `
+            -DBUILD_GPL3=ON `
+            -DBUILD_COMMERCIAL=OFF `
+            -DENABLE_GRPC=OFF `
+            -DWITH_WEBENGINE=OFF `
+            -DSS_USE_MIMALLOC=OFF `
+            -DUSE_SYSTEM_ZLIB=OFF `
+            -DUSE_SYSTEM_EXPAT=OFF
+
+      - name: 'Build Serial Studio GPLv3'
+        run: cmake --build build --config Release
+
+      - name: 'Deploy Qt runtime libraries (windeployqt)'
+        shell: pwsh
+        run: |
+          $exePath = (Get-ChildItem -Path build -Filter "Serial-Studio*.exe" -Recurse | Select-Object -First 1).FullName
+          Write-Host "Found executable at: $exePath"
+          $binDir = (Get-Item $exePath).DirectoryName
+          windeployqt --release --qmldir app/qml "$exePath"
+          New-Item -ItemType Directory -Force -Path package | Out-Null
+          Copy-Item -Recurse "$binDir\*" package/
+          7z a "Serial-Studio-GPLv3-Windows-Portable.zip" ./package/*
+
+      - name: 'Upload Artifact: Windows Portable ZIP'
+        uses: actions/upload-artifact@v4
+        with:
+          name: Serial-Studio-GPLv3-Windows-Portable
+          path: Serial-Studio-GPLv3-Windows-Portable.zip
+          retention-days: 30
