@@ -109,7 +109,6 @@ set(QT_MODULES
   Widgets
   Network
   Bluetooth
-  GuiPrivate
   SerialPort
   WebSockets
   Core5Compat
