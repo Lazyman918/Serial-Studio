@@ -32,7 +32,7 @@ jobs:
           host: 'windows'
           target: 'desktop'
           arch: 'win64_msvc2022_64'
-          modules: 'qtgraphs qtserialport qtbluetooth qtsvg'
+          modules: 'qtgraphs qtserialport qtconnectivity qt5compat'
 
       - name: 'Configure CMake (GPLv3 pure open-source)'
         run: |
@@ -52,10 +52,13 @@ jobs:
       - name: 'Deploy Qt runtime libraries (windeployqt)'
         shell: pwsh
         run: |
-          $exePath = (Get-ChildItem -Path build -Filter "Serial-Studio*.exe" -Recurse | Select-Object -First 1).FullName
-          Write-Host "Found executable at: $exePath"
-          $binDir = (Get-Item $exePath).DirectoryName
-          windeployqt --release --qmldir app/qml "$exePath"
+          $exe = Get-ChildItem -Path build -Filter "Serial-Studio*.exe" -Recurse | Select-Object -First 1
+          if (-not $exe) {
+            throw "Executable not found in build directory!"
+          }
+          Write-Host "Found executable at: $($exe.FullName)"
+          $binDir = $exe.DirectoryName
+          windeployqt --release --qmldir app/qml "$($exe.FullName)"
           New-Item -ItemType Directory -Force -Path package | Out-Null
           Copy-Item -Recurse "$binDir\*" package/
           7z a "Serial-Studio-GPLv3-Windows-Portable.zip" ./package/*
