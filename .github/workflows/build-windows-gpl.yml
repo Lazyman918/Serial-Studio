@@ -32,7 +32,7 @@ jobs:
           host: 'windows'
           target: 'desktop'
           arch: 'win64_msvc2022_64'
-          modules: 'qtgraphs qtquick3d qtserialport qtconnectivity qt5compat'
+          modules: 'qtgraphs qtquick3d qtshadertools qtserialport qtconnectivity qt5compat qtpositioning'
 
       - name: 'Configure CMake (GPLv3 pure open-source)'
         run: |
