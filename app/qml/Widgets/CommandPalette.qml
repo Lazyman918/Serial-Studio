@@ -318,9 +318,7 @@ FocusScope {
   //
   // Drop shadow cast by the dialog.
   //
-  RectangularShadow {
-    blur: 28
-    spread: 2
+  Rectangle {
     anchors.fill: panel
     radius: panel.radius
     color: Qt.rgba(0, 0, 0, 0.35)
