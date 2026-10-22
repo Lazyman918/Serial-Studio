@@ -3,8 +3,8 @@ name: Build Windows GPLv3 (Pure Open Source)
 on:
   workflow_dispatch:
   push:
-    paths:
-      - '.github/workflows/build-windows-gpl.yml'
+    branches:
+      - master
 
 permissions:
   contents: write
