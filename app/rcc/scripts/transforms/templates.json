@@ -20,7 +20,8 @@
       "hi_IN": "निरपेक्ष मान",
       "nl_NL": "Absolute waarde",
       "ro_RO": "Valoare absolută",
-      "sv_SE": "Absolutvärde"
+      "sv_SE": "Absolutvärde",
+      "zh_TW": "絕對值"
     }
   },
   {
@@ -44,7 +45,8 @@
       "hi_IN": "रनिंग संचायक (समाकल)",
       "nl_NL": "Lopende accumulator (integraal)",
       "ro_RO": "Acumulator curent (integrală)",
-      "sv_SE": "Löpande ackumulator (integral)"
+      "sv_SE": "Löpande ackumulator (integral)",
+      "zh_TW": "累加器 (積分)"
     }
   },
   {
@@ -68,7 +70,8 @@
       "hi_IN": "ADC से वोल्टेज (10-बिट, 3.3V संदर्भ)",
       "nl_NL": "ADC naar spanning (10-bit, 3.3V ref.)",
       "ro_RO": "ADC la tensiune (10 biți, ref. 3.3V)",
-      "sv_SE": "ADC till spänning (10-bit, 3.3V ref.)"
+      "sv_SE": "ADC till spänning (10-bit, 3.3V ref.)",
+      "zh_TW": "ADC 轉電壓 (10 位元, 3.3V 參考)"
     }
   },
   {
@@ -92,7 +95,8 @@
       "hi_IN": "ऑटो-ज़ीरो / टेयर",
       "nl_NL": "Auto-nul / Tarra",
       "ro_RO": "Auto-zero / Tară",
-      "sv_SE": "Auto-noll / Tara"
+      "sv_SE": "Auto-noll / Tara",
+      "zh_TW": "自動歸零 / 扣重"
     }
   },
   {
@@ -116,7 +120,8 @@
       "hi_IN": "बिट एक्सट्रैक्ट",
       "nl_NL": "Bit-extractie",
       "ro_RO": "Extragere biți",
-      "sv_SE": "Bitextraktion"
+      "sv_SE": "Bitextraktion",
+      "zh_TW": "位元擷取"
     }
   },
   {
@@ -140,7 +145,8 @@
       "hi_IN": "तापमान: सेल्सियस से फ़ारेनहाइट",
       "nl_NL": "Temperatuur: Celsius naar Fahrenheit",
       "ro_RO": "Temperatură: Celsius în Fahrenheit",
-      "sv_SE": "Temperatur: Celsius till Fahrenheit"
+      "sv_SE": "Temperatur: Celsius till Fahrenheit",
+      "zh_TW": "溫度: 攝氏轉華氏"
     }
   },
   {
@@ -164,7 +170,8 @@
       "hi_IN": "क्लैंप (न्यूनतम/अधिकतम)",
       "nl_NL": "Begrenzen (min/max)",
       "ro_RO": "Limitare (min/max)",
-      "sv_SE": "Begränsa (min/max)"
+      "sv_SE": "Begränsa (min/max)",
+      "zh_TW": "數值箝位 (最小/最大值限制)"
     }
   },
   {
@@ -188,7 +195,8 @@
       "hi_IN": "डेड ज़ोन",
       "nl_NL": "Dode zone",
       "ro_RO": "Zonă moartă",
-      "sv_SE": "Dödzon"
+      "sv_SE": "Dödzon",
+      "zh_TW": "死區"
     }
   },
   {
@@ -212,7 +220,8 @@
       "hi_IN": "डिग्री से रेडियन",
       "nl_NL": "Graden naar radialen",
       "ro_RO": "Grade în radiani",
-      "sv_SE": "Grader till radianer"
+      "sv_SE": "Grader till radianer",
+      "zh_TW": "度轉弧度"
     }
   },
   {
@@ -236,7 +245,8 @@
       "hi_IN": "घातांकी चलायमान औसत (EMA)",
       "nl_NL": "Exponentieel voortschrijdend gemiddelde (EMA)",
       "ro_RO": "Medie mobilă exponențială (EMA)",
-      "sv_SE": "Exponentiellt glidande medelvärde (EMA)"
+      "sv_SE": "Exponentiellt glidande medelvärde (EMA)",
+      "zh_TW": "指數移動平均 (EMA)"
     }
   },
   {
@@ -260,7 +270,8 @@
       "hi_IN": "तापमान: फ़ारेनहाइट से सेल्सियस",
       "nl_NL": "Temperatuur: Fahrenheit naar Celsius",
       "ro_RO": "Temperatură: Fahrenheit în Celsius",
-      "sv_SE": "Temperatur: Fahrenheit till Celsius"
+      "sv_SE": "Temperatur: Fahrenheit till Celsius",
+      "zh_TW": "溫度: 華氏轉攝氏"
     }
   },
   {
@@ -284,7 +295,8 @@
       "hi_IN": "हाई-पास फ़िल्टर (प्रथम क्रम)",
       "nl_NL": "Hoogdoorlaatfilter (1e orde)",
       "ro_RO": "Filtru trece-sus (ordinul 1)",
-      "sv_SE": "Högpassfilter (1:a ordningen)"
+      "sv_SE": "Högpassfilter (1:a ordningen)",
+      "zh_TW": "高通濾波器 (一階)"
     }
   },
   {
@@ -308,7 +320,8 @@
       "hi_IN": "दर को कोण में समाकलित करें",
       "nl_NL": "Snelheid naar hoek integreren",
       "ro_RO": "Integrare viteză în unghi",
-      "sv_SE": "Integrera vinkelhastighet till vinkel"
+      "sv_SE": "Integrera vinkelhastighet till vinkel",
+      "zh_TW": "角速率積分為角度"
     }
   },
   {
@@ -332,7 +345,8 @@
       "hi_IN": "चिह्न उलटें",
       "nl_NL": "Teken omkeren",
       "ro_RO": "Inversare semn",
-      "sv_SE": "Invertera tecken"
+      "sv_SE": "Invertera tecken",
+      "zh_TW": "正負號反轉"
     }
   },
   {
@@ -356,7 +370,8 @@
       "hi_IN": "Kalman फ़िल्टर (1D, अदिश)",
       "nl_NL": "Kalman-filter (1D, scalair)",
       "ro_RO": "Filtru Kalman (1D, scalar)",
-      "sv_SE": "Kalman-filter (1D, skalär)"
+      "sv_SE": "Kalman-filter (1D, skalär)",
+      "zh_TW": "卡爾曼濾波器 (一維純量)"
     }
   },
   {
@@ -380,7 +395,8 @@
       "hi_IN": "तापमान: केल्विन से सेल्सियस",
       "nl_NL": "Temperatuur: Kelvin naar Celsius",
       "ro_RO": "Temperatură: Kelvin în Celsius",
-      "sv_SE": "Temperatur: Kelvin till Celsius"
+      "sv_SE": "Temperatur: Kelvin till Celsius",
+      "zh_TW": "溫度: 克氏轉攝氏"
     }
   },
   {
@@ -404,7 +420,8 @@
       "hi_IN": "रैखिक अंशांकन (y = mx + b)",
       "nl_NL": "Lineaire kalibratie (y = mx + b)",
       "ro_RO": "Calibrare liniară (y = mx + b)",
-      "sv_SE": "Linjär kalibrering (y = mx + b)"
+      "sv_SE": "Linjär kalibrering (y = mx + b)",
+      "zh_TW": "線性校準 (y = mx + b)"
     }
   },
   {
@@ -428,7 +445,8 @@
       "hi_IN": "लॉगरिदमिक (dB रूपांतरण)",
       "nl_NL": "Logaritmisch (dB-conversie)",
       "ro_RO": "Logaritmic (conversie dB)",
-      "sv_SE": "Logaritmisk (dB-konvertering)"
+      "sv_SE": "Logaritmisk (dB-konvertering)",
+      "zh_TW": "對數 (dB 轉換)"
     }
   },
   {
@@ -452,7 +470,8 @@
       "hi_IN": "लो-पास फ़िल्टर (प्रथम क्रम)",
       "nl_NL": "Laagdoorlaatfilter (1e orde)",
       "ro_RO": "Filtru trece-jos (ordinul 1)",
-      "sv_SE": "Lågpassfilter (1:a ordningen)"
+      "sv_SE": "Lågpassfilter (1:a ordningen)",
+      "zh_TW": "低通濾波器 (一階)"
     }
   },
   {
@@ -476,7 +495,8 @@
       "hi_IN": "रेंज मैप (पुनः स्केल)",
       "nl_NL": "Bereik omzetten (herschaal)",
       "ro_RO": "Mapare interval (rescalare)",
-      "sv_SE": "Områdeskartläggning (omskalning)"
+      "sv_SE": "Områdeskartläggning (omskalning)",
+      "zh_TW": "範圍映射 (重新縮放)"
     }
   },
   {
@@ -500,7 +520,8 @@
       "hi_IN": "मेडियन फ़िल्टर (रोलिंग विंडो)",
       "nl_NL": "Mediaanfilter (schuivend venster)",
       "ro_RO": "Filtru median (fereastră glisantă)",
-      "sv_SE": "Medianfilter (glidande fönster)"
+      "sv_SE": "Medianfilter (glidande fönster)",
+      "zh_TW": "中位數濾波器 (滑動視窗)"
     }
   },
   {
@@ -524,7 +545,8 @@
       "hi_IN": "चलायमान औसत फ़िल्टर",
       "nl_NL": "Voortschrijdend gemiddelde filter",
       "ro_RO": "Filtru medie mobilă",
-      "sv_SE": "Glidande medelvärdesfilter"
+      "sv_SE": "Glidande medelvärdesfilter",
+      "zh_TW": "移動平均濾波器"
     }
   },
   {
@@ -548,7 +570,8 @@
       "hi_IN": "बहुपद (द्वितीय क्रम)",
       "nl_NL": "Polynoom (2e orde)",
       "ro_RO": "Polinom (ordinul 2)",
-      "sv_SE": "Polynom (2:a ordningen)"
+      "sv_SE": "Polynom (2:a ordningen)",
+      "zh_TW": "多項式 (二階)"
     }
   },
   {
@@ -572,7 +595,8 @@
       "hi_IN": "रेडियन से डिग्री",
       "nl_NL": "Radialen naar graden",
       "ro_RO": "Radiani în grade",
-      "sv_SE": "Radianer till grader"
+      "sv_SE": "Radianer till grader",
+      "zh_TW": "弧度轉度"
     }
   },
   {
@@ -596,7 +620,8 @@
       "hi_IN": "परिवर्तन दर (अवकलज)",
       "nl_NL": "Veranderingssnelheid (afgeleide)",
       "ro_RO": "Rată de variație (derivată)",
-      "sv_SE": "Ändringshastighet (derivata)"
+      "sv_SE": "Ändringshastighet (derivata)",
+      "zh_TW": "變化率 (微分)"
     }
   },
   {
@@ -620,7 +645,8 @@
       "hi_IN": "रोलिंग RMS",
       "nl_NL": "Voortschrijdende RMS",
       "ro_RO": "RMS glisant",
-      "sv_SE": "Glidande RMS"
+      "sv_SE": "Glidande RMS",
+      "zh_TW": "滑動均方根 (RMS)"
     }
   },
   {
@@ -644,7 +670,8 @@
       "hi_IN": "N दशमलव तक गोल करें",
       "nl_NL": "Afronden op N decimalen",
       "ro_RO": "Rotunjire la N zecimale",
-      "sv_SE": "Avrunda till N decimaler"
+      "sv_SE": "Avrunda till N decimaler",
+      "zh_TW": "四捨五入至 N 位小數"
     }
   },
   {
@@ -668,7 +695,8 @@
       "hi_IN": "रनिंग अधिकतम",
       "nl_NL": "Lopend maximum",
       "ro_RO": "Maxim curent",
-      "sv_SE": "Löpande maximum"
+      "sv_SE": "Löpande maximum",
+      "zh_TW": "累計最大值"
     }
   },
   {
@@ -692,7 +720,8 @@
       "hi_IN": "रनिंग न्यूनतम",
       "nl_NL": "Lopend minimum",
       "ro_RO": "Minim curent",
-      "sv_SE": "Löpande minimum"
+      "sv_SE": "Löpande minimum",
+      "zh_TW": "累計最小值"
     }
   },
   {
@@ -716,7 +745,8 @@
       "hi_IN": "Schmitt ट्रिगर (हिस्टैरेसीस)",
       "nl_NL": "Schmitt-trigger (hysteresis)",
       "ro_RO": "Trigger Schmitt (histerezis)",
-      "sv_SE": "Schmitt-trigger (hysteres)"
+      "sv_SE": "Schmitt-trigger (hysteres)",
+      "zh_TW": "史密特觸發器 (遲滯)"
     }
   },
   {
@@ -740,7 +770,8 @@
       "hi_IN": "स्लू-रेट लिमिटर",
       "nl_NL": "Slew-rate begrenzer",
       "ro_RO": "Limitator slew-rate",
-      "sv_SE": "Slew-rate-begränsare"
+      "sv_SE": "Slew-rate-begränsare",
+      "zh_TW": "斜率限制器"
     }
   },
   {
@@ -764,7 +795,8 @@
       "hi_IN": "साझा टेबल से कैलिब्रेशन",
       "nl_NL": "Kalibratie uit gedeelde tabel",
       "ro_RO": "Calibrare din tabel partajat",
-      "sv_SE": "Kalibrering från delad tabell"
+      "sv_SE": "Kalibrering från delad tabell",
+      "zh_TW": "從共用表讀取校準"
     }
   },
   {
@@ -788,7 +820,8 @@
       "hi_IN": "थर्मिस्टर (Steinhart-Hart)",
       "nl_NL": "Thermistor (Steinhart-Hart)",
       "ro_RO": "Termistor (Steinhart-Hart)",
-      "sv_SE": "Termistor (Steinhart-Hart)"
+      "sv_SE": "Termistor (Steinhart-Hart)",
+      "zh_TW": "熱敏電阻 (Steinhart-Hart)"
     }
   },
   {
@@ -812,7 +845,8 @@
       "hi_IN": "कोण अनरैप (सतत)",
       "nl_NL": "Hoek ontvouwen (continu)",
       "ro_RO": "Desfășurare unghi (continuă)",
-      "sv_SE": "Vinkelupprullning (kontinuerlig)"
+      "sv_SE": "Vinkelupprullning (kontinuerlig)",
+      "zh_TW": "連續角度解纏"
     }
   }
 ]

@@ -20,7 +20,8 @@
       "hi_IN": "AT कमांड प्रतिक्रियाएं",
       "nl_NL": "AT-commandoreacties",
       "ro_RO": "Răspunsuri comenzi AT",
-      "sv_SE": "AT-kommandosvar"
+      "sv_SE": "AT-kommandosvar",
+      "zh_TW": "AT 命令回應"
     }
   },
   {
@@ -44,7 +45,8 @@
       "hi_IN": "Base64 एन्कोडेड डेटा",
       "nl_NL": "Base64-gecodeerde data",
       "ro_RO": "Date codificate Base64",
-      "sv_SE": "Base64-kodad data"
+      "sv_SE": "Base64-kodad data",
+      "zh_TW": "Base64 編碼資料"
     }
   },
   {
@@ -68,7 +70,8 @@
       "hi_IN": "बैच सेंसर डेटा (मल्टी-फ्रेम)",
       "nl_NL": "Gebundelde sensordata (multi-frame)",
       "ro_RO": "Date senzor în loturi (multi-cadru)",
-      "sv_SE": "Samlad sensordata (flerram)"
+      "sv_SE": "Samlad sensordata (flerram)",
+      "zh_TW": "批次感測器資料 (多訊框)"
     }
   },
   {
@@ -92,7 +95,8 @@
       "hi_IN": "बाइनरी TLV (Tag-Length-Value)",
       "nl_NL": "Binair TLV (Tag-Length-Value)",
       "ro_RO": "TLV binar (Tag-Length-Value)",
-      "sv_SE": "Binär TLV (Tag-Length-Value)"
+      "sv_SE": "Binär TLV (Tag-Length-Value)",
+      "zh_TW": "二進位 TLV (Tag-Length-Value)"
     }
   },
   {
@@ -116,7 +120,8 @@
       "hi_IN": "COBS एन्कोडेड फ़्रेम",
       "nl_NL": "COBS-gecodeerde frames",
       "ro_RO": "Cadre codificate COBS",
-      "sv_SE": "COBS-kodade ramar"
+      "sv_SE": "COBS-kodade ramar",
+      "zh_TW": "COBS 編碼訊框"
     }
   },
   {
@@ -140,7 +145,8 @@
       "hi_IN": "अल्पविराम से अलग डेटा",
       "nl_NL": "Komma-gescheiden data",
       "ro_RO": "Date separate prin virgulă",
-      "sv_SE": "Kommaseparerad data"
+      "sv_SE": "Kommaseparerad data",
+      "zh_TW": "逗號分隔資料"
     },
     "default": true
   },
@@ -165,7 +171,8 @@
       "hi_IN": "निश्चित-चौड़ाई फ़ील्ड",
       "nl_NL": "Velden met vaste breedte",
       "ro_RO": "Câmpuri cu lățime fixă",
-      "sv_SE": "Fält med fast bredd"
+      "sv_SE": "Fält med fast bredd",
+      "zh_TW": "固定寬度欄位"
     }
   },
   {
@@ -189,7 +196,8 @@
       "hi_IN": "हेक्साडेसिमल बाइट्स",
       "nl_NL": "Hexadecimale bytes",
       "ro_RO": "Octeți hexazecimali",
-      "sv_SE": "Hexadecimala byte"
+      "sv_SE": "Hexadecimala byte",
+      "zh_TW": "十六進位位元組"
     }
   },
   {
@@ -213,7 +221,8 @@
       "hi_IN": "INI/कॉन्फ़िग प्रारूप",
       "nl_NL": "INI-/configformaat",
       "ro_RO": "Format INI/config",
-      "sv_SE": "INI-/konfigformat"
+      "sv_SE": "INI-/konfigformat",
+      "zh_TW": "INI/組態格式"
     }
   },
   {
@@ -237,7 +246,8 @@
       "hi_IN": "JSON डेटा",
       "nl_NL": "JSON-data",
       "ro_RO": "Date JSON",
-      "sv_SE": "JSON-data"
+      "sv_SE": "JSON-data",
+      "zh_TW": "JSON 資料"
     }
   },
   {
@@ -261,7 +271,8 @@
       "hi_IN": "कुंजी-मान जोड़े",
       "nl_NL": "Sleutel-waardeparen",
       "ro_RO": "Perechi cheie-valoare",
-      "sv_SE": "Nyckel-värde-par"
+      "sv_SE": "Nyckel-värde-par",
+      "zh_TW": "鍵值組"
     }
   },
   {
@@ -285,7 +296,8 @@
       "hi_IN": "MAVLink संदेश",
       "nl_NL": "MAVLink-berichten",
       "ro_RO": "Mesaje MAVLink",
-      "sv_SE": "MAVLink-meddelanden"
+      "sv_SE": "MAVLink-meddelanden",
+      "zh_TW": "MAVLink 訊息"
     }
   },
   {
@@ -309,7 +321,8 @@
       "hi_IN": "MessagePack डेटा",
       "nl_NL": "MessagePack-data",
       "ro_RO": "Date MessagePack",
-      "sv_SE": "MessagePack-data"
+      "sv_SE": "MessagePack-data",
+      "zh_TW": "MessagePack 資料"
     }
   },
   {
@@ -333,7 +346,8 @@
       "hi_IN": "Modbus फ़्रेम",
       "nl_NL": "Modbus-frames",
       "ro_RO": "Cadre Modbus",
-      "sv_SE": "Modbus-ramar"
+      "sv_SE": "Modbus-ramar",
+      "zh_TW": "Modbus 訊框"
     }
   },
   {
@@ -357,7 +371,8 @@
       "hi_IN": "NMEA 0183 वाक्य",
       "nl_NL": "NMEA 0183-zinnen",
       "ro_RO": "Propoziții NMEA 0183",
-      "sv_SE": "NMEA 0183-meningar"
+      "sv_SE": "NMEA 0183-meningar",
+      "zh_TW": "NMEA 0183 語句"
     }
   },
   {
@@ -381,7 +396,8 @@
       "hi_IN": "NMEA 2000 संदेश",
       "nl_NL": "NMEA 2000-berichten",
       "ro_RO": "Mesaje NMEA 2000",
-      "sv_SE": "NMEA 2000-meddelanden"
+      "sv_SE": "NMEA 2000-meddelanden",
+      "zh_TW": "NMEA 2000 訊息"
     }
   },
   {
@@ -405,7 +421,8 @@
       "hi_IN": "पाइप-सीमांकित डेटा",
       "nl_NL": "Pipe-gescheiden data",
       "ro_RO": "Date delimitate prin pipe",
-      "sv_SE": "Pipe-avgränsad data"
+      "sv_SE": "Pipe-avgränsad data",
+      "zh_TW": "直線符號分隔資料"
     }
   },
   {
@@ -429,7 +446,8 @@
       "hi_IN": "कच्चे बाइट्स",
       "nl_NL": "Ruwe bytes",
       "ro_RO": "Octeți bruți",
-      "sv_SE": "Råa byte"
+      "sv_SE": "Råa byte",
+      "zh_TW": "原始位元組"
     }
   },
   {
@@ -453,7 +471,8 @@
       "hi_IN": "RTCM सुधार",
       "nl_NL": "RTCM-correcties",
       "ro_RO": "Corecții RTCM",
-      "sv_SE": "RTCM-korrektioner"
+      "sv_SE": "RTCM-korrektioner",
+      "zh_TW": "RTCM 差分修正"
     }
   },
   {
@@ -477,7 +496,8 @@
       "hi_IN": "अर्धविराम से अलग डेटा",
       "nl_NL": "Puntkomma-gescheiden data",
       "ro_RO": "Date separate prin punct și virgulă",
-      "sv_SE": "Semikolonseparerad data"
+      "sv_SE": "Semikolonseparerad data",
+      "zh_TW": "分號分隔資料"
     }
   },
   {
@@ -501,7 +521,8 @@
       "hi_IN": "SiRF बाइनरी प्रोटोकॉल",
       "nl_NL": "SiRF binair protocol",
       "ro_RO": "Protocol binar SiRF",
-      "sv_SE": "SiRF binärprotokoll"
+      "sv_SE": "SiRF binärprotokoll",
+      "zh_TW": "SiRF 二進位協定"
     }
   },
   {
@@ -525,7 +546,8 @@
       "hi_IN": "SLIP एन्कोडेड फ़्रेम",
       "nl_NL": "SLIP-gecodeerde frames",
       "ro_RO": "Cadre codificate SLIP",
-      "sv_SE": "SLIP-kodade ramar"
+      "sv_SE": "SLIP-kodade ramar",
+      "zh_TW": "SLIP 編碼訊框"
     }
   },
   {
@@ -549,7 +571,8 @@
       "hi_IN": "टैब-सीमांकित डेटा",
       "nl_NL": "Tab-gescheiden data",
       "ro_RO": "Date separate prin tab",
-      "sv_SE": "Tabbseparerad data"
+      "sv_SE": "Tabbseparerad data",
+      "zh_TW": "定位點分隔資料"
     }
   },
   {
@@ -573,7 +596,8 @@
       "hi_IN": "टाइम-सीरीज़ 2D सरणियाँ (मल्टी-फ्रेम)",
       "nl_NL": "2D tijdreeks-arrays (multi-frame)",
       "ro_RO": "Tablouri 2D serii temporale (multi-cadru)",
-      "sv_SE": "2D-tidsseriematriser (flerram)"
+      "sv_SE": "2D-tidsseriematriser (flerram)",
+      "zh_TW": "時間序列二維陣列 (多訊框)"
     }
   },
   {
@@ -597,7 +621,8 @@
       "hi_IN": "UBX प्रोटोकॉल (u-blox)",
       "nl_NL": "UBX-protocol (u-blox)",
       "ro_RO": "Protocol UBX (u-blox)",
-      "sv_SE": "UBX-protokoll (u-blox)"
+      "sv_SE": "UBX-protokoll (u-blox)",
+      "zh_TW": "UBX 協定 (u-blox)"
     }
   },
   {
@@ -621,7 +646,8 @@
       "hi_IN": "URL एन्कोडेड डेटा",
       "nl_NL": "URL-gecodeerde data",
       "ro_RO": "Date codificate URL",
-      "sv_SE": "URL-kodad data"
+      "sv_SE": "URL-kodad data",
+      "zh_TW": "URL 編碼資料"
     }
   },
   {
@@ -645,7 +671,8 @@
       "hi_IN": "XML डेटा",
       "nl_NL": "XML-data",
       "ro_RO": "Date XML",
-      "sv_SE": "XML-data"
+      "sv_SE": "XML-data",
+      "zh_TW": "XML 資料"
     }
   },
   {
@@ -669,7 +696,8 @@
       "hi_IN": "YAML डेटा",
       "nl_NL": "YAML-data",
       "ro_RO": "Date YAML",
-      "sv_SE": "YAML-data"
+      "sv_SE": "YAML-data",
+      "zh_TW": "YAML 資料"
     }
   }
 ]

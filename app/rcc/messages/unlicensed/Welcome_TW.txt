@@ -1,0 +1,15 @@
+Copyright (c) 2020–2026 Alex Spataru <https://github.com/alex-spataru>
+這是 Serial Studio Pro 的免費版本：所有核心功能均可免費使用，
+且無時間限制。下方的 Pro 功能在您試用其中任意功能時即會解鎖，
+並附帶 14 天免費試用。開始試用無需註冊帳號或付款。
+
+個人、教育與開源用途免費；商業用途需要 Pro 授權。
+
+→ 技術支援: alex@serial-studio.com
+
+可用的專業版功能：
+→ MQTT 與 3D 視覺化
+→ Audio、CAN Bus、Modbus、USB、HID 與 Process I/O 驅動程式
+→ 控制輸出元件、MDF4 匯出與 XMODEM/YMODEM/ZMODEM 傳輸協定
+→ 歷史資料庫、變數與數值轉換 (JS + Lua)
+→ 多資料來源專案與自訂儀表板工作區

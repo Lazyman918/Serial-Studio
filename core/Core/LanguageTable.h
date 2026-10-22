@@ -51,12 +51,12 @@ struct LanguageEntry {
  *        same, so index and Translator::Language are interchangeable.
  */
 namespace LanguageTable {
-inline constexpr int kLanguageCount = 21;
+inline constexpr int kLanguageCount = 22;
 
 [[nodiscard]] const std::array<LanguageEntry, kLanguageCount>& entries();
 [[nodiscard]] const LanguageEntry& entryFor(Translator::Language language);
+[[nodiscard]] Translator::Language languageForLocale(const QLocale& locale);
 [[nodiscard]] Translator::Language languageForLocale(QLocale::Language locale);
-
 [[nodiscard]] QLocale localeFor(Translator::Language language);
 [[nodiscard]] QString qmName(Translator::Language language);
 [[nodiscard]] QString welcomeCode(Translator::Language language);

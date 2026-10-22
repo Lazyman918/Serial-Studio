@@ -944,6 +944,7 @@
         <file>messages/gpl3/Welcome_UK.txt</file>
         <file>messages/gpl3/Welcome_VI.txt</file>
         <file>messages/gpl3/Welcome_ZH.txt</file>
+        <file>messages/gpl3/Welcome_TW.txt</file>
         <file>messages/pro/Welcome_AR.txt</file>
         <file>messages/pro/Welcome_CZ.txt</file>
         <file>messages/pro/Welcome_DE.txt</file>
@@ -965,6 +966,7 @@
         <file>messages/pro/Welcome_UK.txt</file>
         <file>messages/pro/Welcome_VI.txt</file>
         <file>messages/pro/Welcome_ZH.txt</file>
+        <file>messages/pro/Welcome_TW.txt</file>
         <file>messages/trial/Welcome_AR.txt</file>
         <file>messages/trial/Welcome_CZ.txt</file>
         <file>messages/trial/Welcome_DE.txt</file>
@@ -986,6 +988,7 @@
         <file>messages/trial/Welcome_UK.txt</file>
         <file>messages/trial/Welcome_VI.txt</file>
         <file>messages/trial/Welcome_ZH.txt</file>
+        <file>messages/trial/Welcome_TW.txt</file>
         <file>messages/unlicensed/Welcome_AR.txt</file>
         <file>messages/unlicensed/Welcome_CZ.txt</file>
         <file>messages/unlicensed/Welcome_DE.txt</file>
@@ -1007,6 +1010,7 @@
         <file>messages/unlicensed/Welcome_UK.txt</file>
         <file>messages/unlicensed/Welcome_VI.txt</file>
         <file>messages/unlicensed/Welcome_ZH.txt</file>
+        <file>messages/unlicensed/Welcome_TW.txt</file>
         <file>messages/Acknowledgements.txt</file>
         <file>scripts/annotations/cobs.js</file>
         <file>scripts/annotations/fixed_records.js</file>

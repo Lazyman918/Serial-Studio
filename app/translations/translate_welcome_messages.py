@@ -65,6 +65,7 @@ LANGUAGE_MAP = {
     "AR": "Arabic",
     "HE": "Hebrew",
     "VI": "Vietnamese",
+    "TW": "Traditional Chinese",
 }
 
 # Languages that use a right-to-left script. The terminal renders these lines

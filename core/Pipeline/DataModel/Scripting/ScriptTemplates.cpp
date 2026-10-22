@@ -27,6 +27,7 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 
+#include "Core/LanguageTable.h"
 #include "Core/Services.h"
 #include "Core/Translator.h"
 
@@ -35,45 +36,7 @@
  */
 static QString localeKeyForLanguage(const Misc::Translator::Language language)
 {
-  switch (language) {
-    case Misc::Translator::Spanish:
-      return QStringLiteral("es_MX");
-    case Misc::Translator::Chinese:
-      return QStringLiteral("zh_CN");
-    case Misc::Translator::German:
-      return QStringLiteral("de_DE");
-    case Misc::Translator::Russian:
-      return QStringLiteral("ru_RU");
-    case Misc::Translator::French:
-      return QStringLiteral("fr_FR");
-    case Misc::Translator::Japanese:
-      return QStringLiteral("ja_JP");
-    case Misc::Translator::Korean:
-      return QStringLiteral("ko_KR");
-    case Misc::Translator::Portuguese:
-      return QStringLiteral("pt_BR");
-    case Misc::Translator::Italian:
-      return QStringLiteral("it_IT");
-    case Misc::Translator::Polish:
-      return QStringLiteral("pl_PL");
-    case Misc::Translator::Turkish:
-      return QStringLiteral("tr_TR");
-    case Misc::Translator::Ukrainian:
-      return QStringLiteral("uk_UA");
-    case Misc::Translator::Czech:
-      return QStringLiteral("cs_CZ");
-    case Misc::Translator::Hindi:
-      return QStringLiteral("hi_IN");
-    case Misc::Translator::Dutch:
-      return QStringLiteral("nl_NL");
-    case Misc::Translator::Romanian:
-      return QStringLiteral("ro_RO");
-    case Misc::Translator::Swedish:
-      return QStringLiteral("sv_SE");
-    case Misc::Translator::English:
-    default:
-      return QStringLiteral("en_US");
-  }
+  return Misc::LanguageTable::qmName(language);
 }
 
 /**

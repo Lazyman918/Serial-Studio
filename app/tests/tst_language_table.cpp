@@ -62,7 +62,7 @@ void TstLanguageTable::tableMatchesEnumOrder()
     QCOMPARE(static_cast<int>(entries.at(i).language), static_cast<int>(i));
 
   QCOMPARE(entries.front().language, Misc::Translator::English);
-  QCOMPARE(entries.back().language, Misc::Translator::Vietnamese);
+  QCOMPARE(entries.back().language, Misc::Translator::TraditionalChinese);
 }
 
 /**
@@ -102,9 +102,10 @@ void TstLanguageTable::entryForClampsUnknownLanguage()
 void TstLanguageTable::localeRoundTripsThroughTheTable()
 {
   const auto& entries = Misc::LanguageTable::entries();
-  for (const auto& entry : entries)
-    QCOMPARE(Misc::LanguageTable::languageForLocale(entry.locale), entry.language);
-
+  for (const auto& entry : entries) {
+    const auto loc = Misc::LanguageTable::localeFor(entry.language);
+    QCOMPARE(Misc::LanguageTable::languageForLocale(loc), entry.language);
+  }
   QCOMPARE(Misc::LanguageTable::languageForLocale(QLocale::Zulu), Misc::Translator::English);
   QCOMPARE(Misc::LanguageTable::languageForLocale(QLocale::AnyLanguage), Misc::Translator::English);
 }
@@ -120,7 +121,8 @@ void TstLanguageTable::territoryIsPinnedOnlyWhereItMatters()
   QCOMPARE(Misc::LanguageTable::localeFor(Misc::Translator::Hebrew).territory(), QLocale::Israel);
   QCOMPARE(Misc::LanguageTable::localeFor(Misc::Translator::Vietnamese).territory(),
            QLocale::Vietnam);
-
+  QCOMPARE(Misc::LanguageTable::localeFor(Misc::Translator::TraditionalChinese).territory(),
+           QLocale::Taiwan);
   QCOMPARE(Misc::LanguageTable::localeFor(Misc::Translator::German).language(), QLocale::German);
   QCOMPARE(Misc::LanguageTable::localeFor(Misc::Translator::Japanese).language(),
            QLocale::Japanese);

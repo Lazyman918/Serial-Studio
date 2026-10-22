@@ -25,7 +25,8 @@
     "sv_SE":"Standard",
     "ar_SA":"افتراضي",
     "he_IL":"ברירת מחדל",
-    "vi_VN":"Mặc định"
+    "vi_VN":"Mặc định",
+    "zh_TW":"預設"
   },
   "colors":{
     "groupbox_border": "#c2c2c2",

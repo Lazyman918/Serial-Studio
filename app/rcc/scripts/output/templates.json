@@ -20,7 +20,8 @@
       "hi_IN": "AT कमांड",
       "nl_NL": "AT-commando",
       "ro_RO": "Comandă AT",
-      "sv_SE": "AT-kommando"
+      "sv_SE": "AT-kommando",
+      "zh_TW": "AT 命令"
     }
   },
   {
@@ -44,7 +45,8 @@
       "hi_IN": "बाइनरी पैकेट",
       "nl_NL": "Binair pakket",
       "ro_RO": "Pachet binar",
-      "sv_SE": "Binärt paket"
+      "sv_SE": "Binärt paket",
+      "zh_TW": "二進位封包"
     }
   },
   {
@@ -68,7 +70,8 @@
       "hi_IN": "CAN Bus फ़्रेम",
       "nl_NL": "CAN Bus-frame",
       "ro_RO": "Cadru CAN Bus",
-      "sv_SE": "CAN Bus-ram"
+      "sv_SE": "CAN Bus-ram",
+      "zh_TW": "CAN 匯流排訊框"
     }
   },
   {
@@ -92,7 +95,8 @@
       "hi_IN": "डिफ़ॉल्ट टेम्पलेट",
       "nl_NL": "Standaardsjabloon",
       "ro_RO": "Șablon implicit",
-      "sv_SE": "Standardmall"
+      "sv_SE": "Standardmall",
+      "zh_TW": "預設範本"
     },
     "default": true
   },
@@ -117,7 +121,8 @@
       "hi_IN": "G-Code कमांड",
       "nl_NL": "G-Code-commando",
       "ro_RO": "Comandă G-Code",
-      "sv_SE": "G-Code-kommando"
+      "sv_SE": "G-Code-kommando",
+      "zh_TW": "G-Code 命令"
     }
   },
   {
@@ -141,7 +146,8 @@
       "hi_IN": "GRBL कमांड",
       "nl_NL": "GRBL-commando",
       "ro_RO": "Comandă GRBL",
-      "sv_SE": "GRBL-kommando"
+      "sv_SE": "GRBL-kommando",
+      "zh_TW": "GRBL 命令"
     }
   },
   {
@@ -165,7 +171,8 @@
       "hi_IN": "JSON कमांड",
       "nl_NL": "JSON-commando",
       "ro_RO": "Comandă JSON",
-      "sv_SE": "JSON-kommando"
+      "sv_SE": "JSON-kommando",
+      "zh_TW": "JSON 命令"
     }
   },
   {
@@ -189,7 +196,8 @@
       "hi_IN": "Modbus लेखन",
       "nl_NL": "Modbus-schrijven",
       "ro_RO": "Scriere Modbus",
-      "sv_SE": "Modbus-skrivning"
+      "sv_SE": "Modbus-skrivning",
+      "zh_TW": "Modbus 寫入"
     }
   },
   {
@@ -213,7 +221,8 @@
       "hi_IN": "NMEA वाक्य",
       "nl_NL": "NMEA-zin",
       "ro_RO": "Propoziție NMEA",
-      "sv_SE": "NMEA-mening"
+      "sv_SE": "NMEA-mening",
+      "zh_TW": "NMEA 語句"
     }
   },
   {
@@ -237,7 +246,8 @@
       "hi_IN": "PID सेटपॉइंट",
       "nl_NL": "PID-instelpunt",
       "ro_RO": "Valoare de referință PID",
-      "sv_SE": "PID-börvärde"
+      "sv_SE": "PID-börvärde",
+      "zh_TW": "PID 設定值"
     }
   },
   {
@@ -261,7 +271,8 @@
       "hi_IN": "PWM नियंत्रण",
       "nl_NL": "PWM-regeling",
       "ro_RO": "Control PWM",
-      "sv_SE": "PWM-styrning"
+      "sv_SE": "PWM-styrning",
+      "zh_TW": "PWM 控制"
     }
   },
   {
@@ -285,7 +296,8 @@
       "hi_IN": "रिले टॉगल",
       "nl_NL": "Relais schakelen",
       "ro_RO": "Comutare releu",
-      "sv_SE": "Reläväxling"
+      "sv_SE": "Reläväxling",
+      "zh_TW": "繼電器切換"
     }
   },
   {
@@ -309,7 +321,8 @@
       "hi_IN": "SCPI कमांड",
       "nl_NL": "SCPI-commando",
       "ro_RO": "Comandă SCPI",
-      "sv_SE": "SCPI-kommando"
+      "sv_SE": "SCPI-kommando",
+      "zh_TW": "SCPI 命令"
     }
   },
   {
@@ -333,7 +346,8 @@
       "hi_IN": "सरल कमांड",
       "nl_NL": "Eenvoudig commando",
       "ro_RO": "Comandă simplă",
-      "sv_SE": "Enkelt kommando"
+      "sv_SE": "Enkelt kommando",
+      "zh_TW": "簡易命令"
     }
   },
   {
@@ -357,7 +371,8 @@
       "hi_IN": "SLCAN कमांड",
       "nl_NL": "SLCAN-commando",
       "ro_RO": "Comandă SLCAN",
-      "sv_SE": "SLCAN-kommando"
+      "sv_SE": "SLCAN-kommando",
+      "zh_TW": "SLCAN 命令"
     }
   }
 ]

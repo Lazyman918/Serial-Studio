@@ -91,7 +91,8 @@ public:
     Swedish,
     Arabic,
     Hebrew,
-    Vietnamese
+    Vietnamese,
+    TraditionalChinese
   };
 
   Q_ENUM(Language);

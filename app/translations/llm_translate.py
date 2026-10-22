@@ -165,6 +165,7 @@ LANGUAGE_MAP = {
     "ar_SA": "Arabic",
     "he_IL": "Hebrew",
     "vi_VN": "Vietnamese",
+    "zh_TW": "Traditional Chinese",
 }
 
 # Languages that use scripts WITHOUT uppercase/lowercase distinction
@@ -173,6 +174,7 @@ CASELESS_SCRIPTS = {
     "ja_JP",  # Japanese (Hiragana/Katakana/Kanji)
     "ko_KR",  # Korean (Hangul)
     "zh_CN",  # Simplified Chinese (Hanzi)
+    "zh_TW",  # Traditional Chinese (Hanzi)
     "hi_IN",  # Hindi (Devanagari)
     "ar_SA",  # Arabic (RTL, no case distinction)
     "he_IL",  # Hebrew (RTL, no case distinction)
@@ -774,6 +776,7 @@ PINNED_TRANSLATIONS = {
         "ja_JP": "16進",
         "ko_KR": "16진수",
         "zh_CN": "十六进制",
+        "zh_TW": "十六進位",
     },
 }
 

@@ -84,7 +84,7 @@ bool Misc::Translator::rtl() const
  */
 Misc::Translator::Language Misc::Translator::systemLanguage() const
 {
-  return LanguageTable::languageForLocale(QLocale::system().language());
+  return LanguageTable::languageForLocale(QLocale::system());
 }
 
 //--------------------------------------------------------------------------------------------------

@@ -163,6 +163,13 @@ static const std::array<Misc::LanguageEntry, Misc::LanguageTable::kLanguageCount
      "vi_VN",
      "VI",
      "Tiếng Việt"},
+   {false,
+     Misc::Translator::TraditionalChinese,
+     QLocale::Chinese,
+     QLocale::Taiwan,
+     "zh_TW",
+     "TW",
+     "繁體中文"},
    }
 };
 
@@ -197,14 +204,32 @@ const Misc::LanguageEntry& Misc::LanguageTable::entryFor(const Translator::Langu
 
 /**
  * @brief Maps a host locale onto the closest shipped language; anything unlisted is English.
+ *        Disambiguates Traditional vs Simplified Chinese using territory and script.
  */
-Misc::Translator::Language Misc::LanguageTable::languageForLocale(const QLocale::Language locale)
+Misc::Translator::Language Misc::LanguageTable::languageForLocale(const QLocale& locale)
 {
+  if (locale.language() == QLocale::Chinese) {
+    if (locale.territory() == QLocale::Taiwan || locale.territory() == QLocale::HongKong
+        || locale.territory() == QLocale::Macau
+        || locale.script() == QLocale::TraditionalChineseScript) {
+      return Translator::TraditionalChinese;
+    }
+    return Translator::Chinese;
+  }
+
   for (const auto& entry : kTable)
-    if (entry.locale == locale)
+    if (entry.locale == locale.language())
       return entry.language;
 
   return Translator::English;
+}
+
+/**
+ * @brief Overload taking only a QLocale::Language for callers that lack territory context.
+ */
+Misc::Translator::Language Misc::LanguageTable::languageForLocale(const QLocale::Language locale)
+{
+  return languageForLocale(QLocale(locale));
 }
 
 //--------------------------------------------------------------------------------------------------

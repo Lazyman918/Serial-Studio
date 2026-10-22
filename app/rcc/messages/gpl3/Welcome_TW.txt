@@ -1,0 +1,17 @@
+Copyright (c) 2020–2026 Alex Spataru <https://github.com/alex-spataru>
+本軟體為自由且開源軟體，遵循 GNU GPLv3 授權條款。
+您可以在相同條款下自由使用、修改與重新分發，前提是衍生作品
+必須保持開源。
+
+→ 原始碼:  https://github.com/serial-studio/serial-studio
+
+喜歡這個專案嗎？歡迎透過訂購 Serial Studio Pro 支持開發：
+→ https://store.serial-studio.com/
+
+專業版功能：
+→ MQTT 與 3D 視覺化
+→ Audio、CAN Bus、Modbus、USB、HID 與 Process I/O 驅動程式
+→ 控制輸出元件、MDF4 匯出與 XMODEM/YMODEM/ZMODEM 傳輸協定
+→ 歷史資料庫、變數與數值轉換 (JS + Lua)
+→ 多資料來源專案與自訂儀表板工作區
+→ 商業授權（無 GPL 限制義務）

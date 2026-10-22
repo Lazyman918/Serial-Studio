@@ -25,7 +25,8 @@
     "sv_SE":"Fluent Mörkt",
     "ar_SA":"فلوينت داكن",
     "he_IL":"פלואנט כהה",
-    "vi_VN":"Fluent Tối"
+    "vi_VN":"Fluent Tối",
+    "zh_TW":"Fluent 深色"
   },
   "colors": {
  "groupbox_border": "#3D3D3D",

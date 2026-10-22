@@ -1,0 +1,15 @@
+Copyright (c) 2020–2026 Alex Spataru <https://github.com/alex-spataru>
+您正在使用 Serial Studio Pro 試用版。此版本功能完整，
+僅供評估與個人非商業用途。試用期結束後，如需繼續使用，
+請升級至付費方案或自行編譯 GPLv3 開源版本。
+
+→ 技術支援: alex@serial-studio.com
+→ 預約通話: https://calendly.com/serial-studio
+→ 瞭解更多: https://serial-studio.com/
+
+可用的專業版功能：
+→ MQTT 與 3D 視覺化
+→ Audio、CAN Bus、Modbus、USB、HID 與 Process I/O 驅動程式
+→ 控制輸出元件、MDF4 匯出與 XMODEM/YMODEM/ZMODEM 傳輸協定
+→ 歷史資料庫、變數與數值轉換 (JS + Lua)
+→ 多資料來源專案與自訂儀表板工作區

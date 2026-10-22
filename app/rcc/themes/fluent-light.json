@@ -25,7 +25,8 @@
     "sv_SE":"Fluent Ljust",
     "ar_SA":"فلوينت فاتح",
     "he_IL":"פלואנט בהיר",
-    "vi_VN":"Fluent Sáng"
+    "vi_VN":"Fluent Sáng",
+    "zh_TW":"Fluent 淺色"
   },
   "colors":{
     "groupbox_border": "#CACACA",

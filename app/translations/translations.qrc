@@ -21,5 +21,6 @@
         <file>qm/ar_SA.qm</file>
         <file>qm/he_IL.qm</file>
         <file>qm/vi_VN.qm</file>
+        <file>qm/zh_TW.qm</file>
     </qresource>
 </RCC>
